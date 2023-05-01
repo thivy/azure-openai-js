@@ -1,11 +1,10 @@
 "use client";
 import React, { FC, useState } from "react";
+import { ConverSationStyle } from "../api/openai/route";
 
 interface ToggleProps {
   onClick: (ConverSationStyle: ConverSationStyle) => void;
 }
-
-export type ConverSationStyle = "FUNNY" | "NEUTRAL" | "SAD" | "ANGRY";
 
 export const ConversationStyleToggle: FC<ToggleProps> = (props) => {
   const [selected, setSelected] = useState<ConverSationStyle>("FUNNY");
