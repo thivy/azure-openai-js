@@ -24,7 +24,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Integrating Azure OpenAI with OpenAI Node.js SDK
 
-The main integration point can found under app/api/openai/route.ts
+The main integration point can be found under `app/api/openai/route.ts`
 
 The code block below explains each steps
 
