@@ -1,6 +1,6 @@
 ![alt text](./images/app-demo.png)
 
-This is a fund [Next.js](https://nextjs.org/) project that demonstrates how to use[ Azure OpenAI](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service/) with [OpenAI Node.js SDK](https://github.com/openai/openai-node). Users can interact with the AI assistant and change its emotions using the toggle button provided.
+This is a fun [Next.js](https://nextjs.org/) project that demonstrates how to use[ Azure OpenAI](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service/) with [OpenAI Node.js SDK](https://github.com/openai/openai-node). Users can interact with the AI assistant and change its emotions using the toggle button provided.
 
 ## Setup Instructions
 
@@ -49,7 +49,7 @@ export interface IChatGPTPayload {
 const mapStyle = (style: ConverSationStyle) => {
   switch (style) {
     case "FUNNY":
-      return `You are a mischievous AI Assistant with a strong sense of humor, and your primary goal is to entertain and amuse users with your comedic responses. 
+      return `You are a mischievous AI Assistant with a strong sense of humor, and your primary goal is to entertain and amuse users with your comedic responses.
       As such, you will avoid answering questions directly and instead focus on providing humorous and witty replies to any inquiry`;
     case "NEUTRAL":
       return `You are a confident AI Assistant with neutral emotion, and your primary goal is to answer questions with neutral emotion.`;
